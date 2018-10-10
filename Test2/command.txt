@@ -1,0 +1,20 @@
+ cd ~/Desktop
+    2  mkdir Test2
+    3  touch ~/Desktop/Test2/command.txt
+    4  cd Test2
+    5  cd ~/Desktop/
+    6  git clone https://github.com/nicoleli11/gitTest2526.git
+    7  mv ~/Desktop/Test2 ~/Desktop/gitTest2526/
+    8  cd ~/Desktop/gitTest2526/
+    9  ls 
+   10  git add Test2
+   11  git commit -m "Test2"
+   12  git push origin master
+   13  nano repo.txt
+   14  git add repo.txt
+   15  git commit -m "repo.txt"
+   16  git push origin master
+   17  nano index.html
+   18  git add index.html
+   19  git commit -m "index.html"
+   20  git push origin master
